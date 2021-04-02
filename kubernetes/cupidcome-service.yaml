@@ -1,0 +1,12 @@
+apiVersion: v1 #apiVersion是当前配置格式的版本
+kind: Service #kind是要创建的资源类型
+metadata: #metadata是该资源的元数据，name是必须的元数据项
+  name: cupidcome-servicde
+spec:
+  selector: # selector 指明挑选那些 label 为 run: xx 的 Pod 作为 Service 的后端。
+    app: cupidcome
+  ports:  #将Service 的 8080 端口映射到 Pod 的 8080 端口，使用 TCP 协议
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: NodePort # 暴露service的三种方式 NodePort，LoadBalancer 和 Ingress 
