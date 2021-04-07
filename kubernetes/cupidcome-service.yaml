@@ -9,4 +9,4 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
-  type: NodePort # 暴露service的三种方式 NodePort，LoadBalancer 和 Ingress 
+  type: ClusterIP # 暴露service的三种方式 NodePort，LoadBalancer 和 Ingress 
