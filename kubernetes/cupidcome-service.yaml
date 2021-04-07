@@ -1,7 +1,7 @@
 apiVersion: v1 #apiVersion是当前配置格式的版本
 kind: Service #kind是要创建的资源类型
 metadata: #metadata是该资源的元数据，name是必须的元数据项
-  name: cupidcome-servicde
+  name: cupidcome-service
 spec:
   selector: # selector 指明挑选那些 label 为 run: xx 的 Pod 作为 Service 的后端。
     app: cupidcome
