@@ -50,3 +50,6 @@ backend apiserver
     balance     roundrobin
         server master1 172.16.15.239:6443 check
 EOF
+
+systemctl restart haproxy
+systemctl status haproxy
