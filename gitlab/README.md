@@ -10,8 +10,8 @@ bash <(curl -s -L https://raw.githubusercontent.com/bidianqing/installer/main/gi
 
 ## 修改/etc/gitlab/gitlab.rb
 ```
-nginx['redirect_http_to_https'] = true
 external_url "https://gitlab.example.com"
+nginx['redirect_http_to_https'] = true
 letsencrypt['enable'] = false
 ```
 
