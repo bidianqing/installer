@@ -5,4 +5,4 @@ bash <(curl -s -L https://raw.githubusercontent.com/bidianqing/installer/main/gi
 ```
 
 
-https://docs.gitlab.com/omnibus/settings/nginx.html#manually-configuring-https
+https://docs.gitlab.com/omnibus/settings/nginx.html
