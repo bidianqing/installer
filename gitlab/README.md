@@ -15,7 +15,7 @@ letsencrypt['enable'] = false
 ```
 sudo mkdir -p /etc/gitlab/ssl
 sudo chmod 755 /etc/gitlab/ssl
-拷贝证书
+拷贝证书 gitlab.example.com.crt  gitlab.example.com.key
 ```
 
 ## 启动gitlab
