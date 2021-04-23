@@ -18,3 +18,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass4!';
 select Host,User from user;
 update user set Host = '%' where User = 'roow';
 ```
+### 重启MySQL
+```
+systemctl restart mysqld
+```
