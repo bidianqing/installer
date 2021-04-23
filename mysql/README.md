@@ -4,6 +4,7 @@
 bash <(curl -s -L https://raw.githubusercontent.com/bidianqing/installer/main/mysql/mysql.sh)
 ```
 
+## 修改root用户的密码并允许远程连接
 ```
 mysql -uroot -p
 ```
