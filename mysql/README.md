@@ -10,11 +10,11 @@ mysql -uroot -p
 ```
 
 ```
+use mysql;
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass4!';
 ```
 
 ```
-use mysql;
 select Host,User from user;
 update user set Host = '%' where User = 'roow';
 ```
