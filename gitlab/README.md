@@ -13,6 +13,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/bidianqing/installer/main/gi
 external_url "https://gitlab.example.com"
 nginx['redirect_http_to_https'] = true
 letsencrypt['enable'] = false
+证书路径
 ```
 
 ## 准备证书
