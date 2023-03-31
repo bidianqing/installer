@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl -R -O https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
+curl -R -O https://repo.mysql.com/mysql80-community-release-el7-7.noarch.rpm
 
-sudo yum install mysql80-community-release-el7-3.noarch.rpm -y
+sudo yum install mysql80-community-release-el7-7.noarch.rpm -y
 
 sudo yum install mysql-community-server -y
 
